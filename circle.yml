@@ -1,7 +1,5 @@
 deployment:
-  production:
+  prod:
     branch: master
-
-  test:
-    override:
-      - echo 'no tests, just say us Okay!'
+    heroku:
+      appname: baotroy-heroku-cd
