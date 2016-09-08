@@ -1,10 +1,7 @@
-machine:
-  timezone:
-    America/New_York
-    
-  php:
-    version: 5.6.5
+deployment:
+  production:
+    branch: master
 
   test:
     override:
-      - echo 'no test just say ok'
+      - echo 'no tests, just say us Okay!'
