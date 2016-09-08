@@ -1,0 +1,7 @@
+machine:
+  php:
+    version: 5.6.5
+
+  test:
+    override:
+      - echo 'no test just say ok'
