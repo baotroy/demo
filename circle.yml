@@ -1,4 +1,7 @@
-deployment:
+machine:
+  timezone:
+    America/New_York
+    
   php:
     version: 5.6.5
 
