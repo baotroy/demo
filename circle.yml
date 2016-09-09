@@ -14,4 +14,4 @@ dependencies:
     - ls
 test:
   override:
-    - php ./tests/index.php
+    - php ./money.php
