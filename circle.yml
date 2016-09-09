@@ -1,5 +1,8 @@
-deployment:
-  prod:
-    branch: master
-    heroku:
-      appname: baotroy-demo
+machine:
+  timezone:
+    Asia/Tokyo
+  php:
+    version: 7.0.4
+test:
+  override:
+    - echo '1'
