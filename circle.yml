@@ -14,4 +14,4 @@ dependencies:
     - ls
 test:
   override:
-    - phpunit ./money.php
+    - phpunit money.php
